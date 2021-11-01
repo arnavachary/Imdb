@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.iphone{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    height: 55vh;
+    margin: 100px auto;
+}
+
+.iphone > .col > img{
+    width: 100%;
+    height: auto;
+}
+
+.iphone > .col1 {
+   padding: 0 100px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+    color: white;
+}
+
+
+section > .col2{
+    background-color: rgb(3, 21, 75);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
